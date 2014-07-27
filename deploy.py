@@ -1,5 +1,6 @@
 import socket
 import subprocess 
+import os
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_address = ('', 1337)
@@ -13,15 +14,22 @@ prevProc = None
 while True:
     print "LISTENING"
     connection, client_address = sock.accept()
-    sock.recv(1024)
+    connection.recv(1024)
     if prevProc != None:
         prevProc.terminate()
     print "DEPLOYING"
-    subprocess.call(['git','add','-A'])
-    subprocess.call(['git','commit','-m',"Server Update"])
-    subprocess.call(['git','pull','origin','master'])
-    subprocess.call(['git','push','origin','master'])
-    prevProc = subprocess.Popen(['java', '-jar', 'server.jar'])
+    print os.getcwd()
+    # os.system('git add .')
+    # os.system('git commit -m \"Server Update\"')
+    # os.system('git pull origin master')
+    # os.system('git push origin master')
+
+    # prevProc = subprocess.Popen(['git commit -am "Server update"'])
+    # prevProc = subprocess.Popen(['git','pull','origin','master'])
+    # prevProc = subprocess.Popen(['git','push','origin','master'])
+    # prevProc = subprocess.Popen(['java', '-jar', 'server.jar'])
+
+    prevProc = subprocess.Popen([os.path.join(os.getcwd(), 'run.cmd')])
 
     connection.close()
 
