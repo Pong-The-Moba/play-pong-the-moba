@@ -14,10 +14,10 @@ Once that completes, open the directory produced and run server.jar. Then, both 
 
 If you don't see this screen, check to make sure your Java version is current, that you haven't removed the jar from the directory, and that you have execute permissions on the jar. If all of these are the case or if you're stuck, send us an email saying what you saw.
 
-<b> Running entering the IP Address of the server</b>
+<b> Running entering the IP Address of the server</b><br>
 Now, both players should enter the IP address of the server. The player running the server can also enter localhost or 127.0.0.1. Then, hit enter or click go. If your internet is bad, you'll see a crash here. Most likely, you're entering the wrong ip address – possibly a public-facing address. Double check that, then send us an email saying what you saw.
 
-<b> How to get your IP Address </b>
+<b> How to get your IP Address </b><br>
 If you are familiar with command line for your OS:
 try typing in ipconfig or ifconfig and see what the local ip address is (normally starts with 192.168.--). 
 
