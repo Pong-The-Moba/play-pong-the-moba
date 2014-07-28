@@ -6,7 +6,7 @@ Welcome to the pong-the-moba Alpha Playtest! Thanks for helping us out.
 
 Start by either downloading the zip file or cloning the repository. Cloning will speed up the download if you participate in any later playtests, but the choice is yours.
 
-While the download goes, find out the local ip address of the player who will run the server for your game. Currently, the game is played peer-to-peer, which means until some witchcraft happens, it can only be played by LAN. :-(. :smile:
+While the download goes, find out the local ip address of the player who will run the server for your game. Currently, the game is played peer-to-peer, which means until some witchcraft happens, it can only be played by LAN. :scream:
 
 <b> Running the Game </b>
 
