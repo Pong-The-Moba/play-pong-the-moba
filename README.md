@@ -4,6 +4,8 @@ Welcome to the pong-the-moba Alpha Playtest! Thanks for helping us out.
 
 <b> Getting Started </b>
 
+Warning, this a game meant to be played by 2 people (and 2 computers). Although it is possible to play on your own by opening two clients on the same machine, it may not be as much fun :smile:.
+
 Start by either downloading the zip file or cloning the repository. Cloning will speed up the download if you participate in any later playtests, but the choice is yours. The zip download can be found as a button on the right pane of the repo's home screen (supposedly). or [here](https://github.com/Pong-The-Moba/play-pong-the-moba/archive/production.zip)
 
 While the download goes, find out the local ip address of the player who will run the server for your game. Currently, the game is played peer-to-peer, which means until some witchcraft happens, it can only be played by LAN. :scream:
