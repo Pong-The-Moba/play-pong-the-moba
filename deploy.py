@@ -16,7 +16,7 @@ while True:
     connection, client_address = sock.accept()
     connection.recv(1024)
     if prevProc != None:
-        prevProc.terminate()
+        prevProc.kill()
     print "DEPLOYING"
     print os.getcwd()
     # os.system('git add .')
