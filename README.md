@@ -25,7 +25,7 @@ Otherwise, on OSX - open up network preferences from the icon top right (wifi ic
 
 On Windows, click the network icon lower right in task bar and try to get to the details through properties or status menu of your current internet connection. You're also looking for a 192.168.--.
 
-<b>Controls /b>
+<b>Controls </b>
 
 Hopefully, you're now in the game. The controls are:
 up/down: up, down. Amazing.
