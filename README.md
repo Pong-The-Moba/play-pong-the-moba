@@ -4,7 +4,7 @@ Welcome to the pong-the-moba Alpha Playtest! Thanks for helping us out.
 
 <b> Getting Started </b>
 
-Start by either downloading the zip file or cloning the repository. Cloning will speed up the download if you participate in any later playtests, but the choice is yours. The zip download can be found as a button on the right pane of the repo's home screen (supposedly). (https://github.com/Pong-The-Moba/play-pong-the-moba/archive/production.zip)
+Start by either downloading the zip file or cloning the repository. Cloning will speed up the download if you participate in any later playtests, but the choice is yours. The zip download can be found as a button on the right pane of the repo's home screen (supposedly). or [here](https://github.com/Pong-The-Moba/play-pong-the-moba/archive/production.zip)
 
 While the download goes, find out the local ip address of the player who will run the server for your game. Currently, the game is played peer-to-peer, which means until some witchcraft happens, it can only be played by LAN. :scream:
 
@@ -35,8 +35,7 @@ Q: Explosive paddle.
 
 The teal bars behind the paddles are mana. The big numbers in the middle are the score. The red and blue line wandering around the middle of the game is the ball serve machine – when you score, the ball will pop out of it.
 
-Thank you for your time and effort! Please fill out the survey here:
-https://docs.google.com/forms/d/11MTeljkYPyR6gCuLSyL629C09zqxlYAtPfdsPPqZDT0/viewform?usp=send_form
+Thank you for your time and effort! Please fill out the survey  [here](https://docs.google.com/forms/d/11MTeljkYPyR6gCuLSyL629C09zqxlYAtPfdsPPqZDT0/viewform?usp=send_form)
 
 The code is designed to be friendly to new designers making small contributions. If you're interested, send us an email.
 
