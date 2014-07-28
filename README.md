@@ -39,6 +39,6 @@ Thank you for your time and effort! Please fill out the survey  [here](https://d
 
 The code is designed to be friendly to new designers making small contributions. If you're interested, send us an email.
 
-<b> Contact us! </b>
-jtbooth1@gmail.com
+<b> Contact us! </b><br>
+jtbooth1@gmail.com<br>
 sihrc.c.lee@gmail.com
