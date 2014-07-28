@@ -29,7 +29,7 @@ while True:
     # prevProc = subprocess.Popen(['git','push','origin','master'])
     # prevProc = subprocess.Popen(['java', '-jar', 'server.jar'])
 
-    prevProc = subprocess.Popen([os.path.join(os.getcwd(), 'run.cmd')])
+    prevProc = subprocess.Popen([os.path.join(os.getcwd(), 'run.cmd')], shell=True)
 
     connection.close()
 
