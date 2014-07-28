@@ -6,9 +6,7 @@ Start by either downloading the zip file or cloning the repository. Cloning will
 
 While the download goes, find out the local ip address of the player who will run the server for your game. Currently, the game is played peer-to-peer, which means until some witchcraft happens, it can only be played by LAN. :-(.
 
-Once that completes, open the directory produced and run server.jar. Then, both players should run Client.jar. If you see this screen, you're doing it right:
-
-[image of setup screen]
+Once that completes, open the directory produced and run server.jar. Then, both players should run Client.jar. If you see a black popup window asking for an IP address, you're doing it right.
 
 If you don't see this screen, check to make sure your Java version is current, that you haven't removed the jar from the directory, and that you have execute permissions on the jar. If all of these are the case, send us an email saying what you saw.
 
