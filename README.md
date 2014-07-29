@@ -2,6 +2,26 @@ pong-the-moba playtest instructions
 ==================
 Welcome to the pong-the-moba Alpha Playtest! Thanks for helping us out.
 
+
+<b> Short and Sweet Version </b> 
+Grab this repository (zip or clone) and unpack it. 
+Double click on server.jar to run it. (There's now a server on localhost)
+Open a client.jar and type in localhost and hit go. 
+Open another client.jar on another computer (or on same computer if no playmate). 
+Enter the inward facing IP address of the computer with the server in it. 
+Click Go. 
+
+If opening jars isn't working, try to open up a command line, navigate to the directory, and run 
+
+java -jar server.jar
+java -jar client.jar 
+
+If you're on linux, you may need additional argument for the client:
+java -Djava.library.path=. -jar client.jar 
+
+
+Currently, our Images happen to be in CYMK (that's changing soon), so it may not load correctly on Linux. 
+
 <b> Getting Started </b>
 
 Warning, this a game meant to be played by 2 people (and 2 computers). Although it is possible to play on your own by opening two clients on the same machine, it may not be as much fun :smile:.
