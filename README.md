@@ -3,7 +3,7 @@ pong-the-moba playtest instructions
 Welcome to the pong-the-moba Alpha Playtest! Thanks for helping us out.
 
 
-<b> Short and Sweet Version </b> 
+<b> Short and Sweet Version </b> <br>
 Grab this repository (zip or clone) and unpack it. 
 Double click on server.jar to run it. (There's now a server on localhost)
 Open a client.jar and type in localhost and hit go. 
