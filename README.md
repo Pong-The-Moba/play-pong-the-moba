@@ -4,20 +4,25 @@ Welcome to the pong-the-moba Alpha Playtest! Thanks for helping us out.
 
 
 <b> Short and Sweet Version </b> <br>
-Grab this repository (zip or clone) and unpack it. <br>
-Double click on server.jar to run it. (There's now a server on localhost)<br>
-Open a client.jar and type in localhost and hit go. <br>
-Open another client.jar on another computer (or on same computer if no playmate). <br>
-Enter the inward facing IP address of the computer with the server in it. <br>
-Click Go. <br>
+    1. Grab this repository (zip or clone) and unpack it. <br>
+    2. Double click on server.jar to run it. (There's now a server on localhost)<br>
+    3. Open a client.jar and type in localhost and hit go. <br>
+    4. Open another client.jar on another computer (or on same computer if no playmate). <br>
+    5. Enter the inward facing IP address of the computer with the server in it. <br>
+    6. Click Go. <br>
 
 If opening jars isn't working, try to open up a command line, navigate to the directory, and run 
 
-java -jar server.jar<br>
+```
+java -jar server.jar
 java -jar client.jar 
+```
 
 If you're on linux, you may need additional argument for the client:<br>
+
+```
 java -Djava.library.path=. -jar client.jar 
+```
 
 
 Currently, our Images happen to be in CYMK (that's changing soon), so it may not load correctly on Linux. 
