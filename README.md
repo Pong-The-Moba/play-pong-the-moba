@@ -27,6 +27,8 @@ java -Djava.library.path=. -jar client.jar
 
 Currently, our Images happen to be in CYMK (that's changing soon), so it may not load correctly on Linux. 
 
+###LONG VERSION
+
 <b> Getting Started </b>
 
 Warning, this a game meant to be played by 2 people (and 2 computers). Although it is possible to play on your own by opening two clients on the same machine, it may not be as much fun :smile:.
